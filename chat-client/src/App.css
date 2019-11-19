@@ -17,6 +17,40 @@
   color: white;
 }
 
+.errorMessage {
+  color: red;
+}
+
+.LoginSignup {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.form-container {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.chatContainer{
+  border:2px solid black;
+  margin: auto;
+  margin-top: 12px;
+  width: 550px;
+  height: 135px;
+}
+
+.chatItems{
+  text-align: left;
+  height: 110px;
+  overflow: scroll;
+}
+
+.chatItem {
+  color: lightseagreen;
+}
+
 .App-link {
   color: #09d3ac;
 }
